@@ -29,28 +29,28 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
         </symbol>    
         </svg>
 
-        <div className={`${isOpen ? "right-0 " : "-right-64"} nav fixed z-20 top-0 bottom-0  w-64 pt-3 px-4 bg-white dark:bg-zinc-700 overflow-y-auto transition-all`}>
-            <div className='flex items-center justify-between pb-5 mb-6 border-b border-b-gray-100 dark:border-b-white/10'>
+        <div className={`${isOpen ? "right-0 " : "-right-64"} nav fixed z-20 top-0 bottom-0  w-64 pt-3 px-4 bg-white overflow-y-auto transition-all`}>
+            <div className='flex items-center justify-between pb-5 mb-6 border-b border-b-gray-100 '>
             
             <div>
                 <p>hi</p>
             </div>
 
             <div onClick={() => setIsOpen(false)} className=" nav-close-btn text-end">
-                <svg className='w-6 h-6 text-zinc-600 dark:text-white '>
+                <svg className='w-6 h-6 text-zinc-600 '>
                     <use xlinkHref="#x-icon"></use>
                 </svg>
             </div>
             
             </div>
 
-            <ul className='child:pr-2.5 text-zinc-600 dark:text-white space-y-6'>
+            <ul className='child:pr-2.5 text-zinc-600 space-y-6'>
                 
                
                
                 <li>
                     <a onClick={() => setIsOpen(false)} href="#about" className='flex items-center gap-x-2'>
-                    <svg className='w-5 h-5 text-zinc-600 dark:text-white'>
+                    <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#user"></use>
                     </svg>
                          درباره من
@@ -58,7 +58,7 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
                 </li>
                 <li>
                     <a href='#' className='flex items-center gap-x-2'>
-                    <svg className='w-5 h-5 text-zinc-600 dark:text-white'>
+                    <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#briefcase"></use>
                     </svg>
                         مهارت ها
@@ -66,7 +66,7 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
                 </li>
                 <li>
                     <a href='#' className='flex items-center gap-x-2'>
-                    <svg className='w-5 h-5 text-zinc-600 dark:text-white'>
+                    <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#work"></use>
                     </svg>
                          تجربه های شغلی
@@ -75,7 +75,7 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
                 
                 <li>
                     <a href='#' className='flex items-center gap-x-2'>
-                    <svg className='w-5 h-5 text-zinc-600 dark:text-white'>
+                    <svg className='w-5 h-5 text-zinc-600 '>
                        <use xlinkHref="#phone"></use>
                     </svg>
                         تماس با من
@@ -83,7 +83,7 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
                 </li>
                 <li>
                     <a href='#' className='flex items-center gap-x-2'>
-                    <svg className='w-5 h-5 text-zinc-600 dark:text-white'>
+                    <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#arrowdown"></use>
                     </svg>
                          دریافت فایل رزومه

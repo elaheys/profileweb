@@ -18,7 +18,7 @@ const Banner = () => {
                         <span className='flex justify-end text-xs whitespace-nowrap'>«وینستون چرچیل»</span>
                     </p>
                     <div className="my-4 sm:text-base text-xs">
-                        <a href="/public/tohidkhorasani.pdf" className="button bg-[#4993cc] rounded-md sm:p-3 p-2 text-white">دانلود فایل رزومه</a>
+                        <a href="/tohidkhorasani.pdf" className="button bg-[#4993cc] rounded-md sm:p-3 p-2 text-white">دانلود فایل رزومه</a>
                     </div>
                 </div>
 
