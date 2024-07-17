@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "IranYekan Black";
+  src: url("/src/fonts/IRANYEKANWEBBLACK.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan ExtraBlack";
+  src: url("/src/fonts/IRANYEKANWEBEXTRABLACK.TTF") format("truetype");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "IranYekan Bold";
+  src: url("/src/fonts/IRANYEKANWEBBOLD.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan ExtraBold";
+  src: url("/src/fonts/IRANYEKANWEBEXTRABOLD.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan Light";
+  src: url("/src/fonts/IRANYEKANWEBLIGHT.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan Medium";
+  src: url("/src/fonts/IRANYEKANWEBMEDIUM.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan Regular";
+  src: url("/src/fonts/IRANYEKANWEBREGULAR.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan Thin";
+  src: url("/src/fonts/IRANYEKANWEBTHIN.TTF") format("truetype");
+  font-display: swap;
+}
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+.overlay{
+  @apply sm:hidden invisible opacity-0 w-full h-full fixed inset-0 bg-black/40 z-10 transition-all;
+}
+
+.overlay--visible{
+  @apply visible opacity-100 ;
+}
+@media screen and (min-width:768px) {
+
+.button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+  .button::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4993cc;
+    border-radius: 5px;
+    z-index: -2;
+  }
+
+  .button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.192);
+    transition: all .3s;
+    border-radius: 5px;
+    z-index: -1;
+  }
+
+  .button:hover{
+      color: #fff;
+  }
+  .button:hover::before{
+      width: 100%;
+  }
+  
+}
+
+.services{
+  @apply relative;
+
+}
+.services::after,
+.services::before{
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  background-color: #D1D5DB;
+}
+
+.services::after{
+  height: calc(100% - 1.25rem);
+  width: 1px;
+}
+.services::before{
+  width: calc(100% - 2rem);
+  height: 1px;
+}
+
+@media screen and (min-width: 640px) {
+  .services::after,
+  .services::before{
+    content: none;
+  }
+}
+
+
+
+.show{
+  animation-duration: 2s ;
+  animation-name: animate-show;
+}
+
+@keyframes animate-show{
+  0%{
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.otherSec{
+  animation-duration: 2s;
+  animation-name: other-sec;
+}
+
+@keyframes other-sec{
+  0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
