@@ -179,3 +179,17 @@ html,body{
     opacity: 1;
   }
 }
+
+.banner{
+  position: relative;
+}
+
+.aim{
+  @apply absolute inset-0 md:top-[290px] top-[350px] justify-center;
+}
+
+/* .aim{
+  position: absolute;
+  inset: 0;
+  top: 290px;
+} */

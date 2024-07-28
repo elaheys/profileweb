@@ -2,26 +2,30 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div>
-            <section className="flex h-[300px] min-h-80 bg-[#4993cc]/10">
-                <div className="flex flex-col w-[50%] mt-4 items-start md:mx-[100px] mx-9">
+        <div className='banner'>
+            <section className="flex md:h-[450px] h-[400px] min-h-80 bg-[#4993cc]/10">
+            <div className='flex flex-col'>
+                <div className="w-[90%] md:mt-40 mt-12 border-2 border-[#4993cc68] rounded-[30px] md:items-start px-5 pt-3 sm:mx-[60px] lg:mx-[70px] mx-auto">
 
-                    <h3 className="w-[170px] text-lg pb-2 font-IranYekanBold">
+                    <h3 className="text-lg pr-3 font-IranYekanBold">
                         توحید خراسانی
                     </h3>
-                    <p className="whitespace-nowrap text-[#2A5474] text-xl border-2 border-zinc-700 p-3">مشاور و منتور کسب و کار</p>  
+                    <p className="whitespace-nowrap text-[#2A5474] text-xl p-3">مشاور و منتور کسب و کار</p>  
 
-                    <p className="w-[242px] sm:text-justify border-2 border-zinc-700 p-3 mt-2 sm:text-xl flex-wrap">
+                    <p className="sm:text-justify p-3 mt-2 sm:text-xl flex-wrap">
                         با مشورت پشیمانی را به
                         حداقل برسانید و موفقیت را 
                         به حداکثر.  
                         <span className='flex justify-end text-xs whitespace-nowrap'>«وینستون چرچیل»</span>
                     </p>
-                    <div className="my-4 sm:text-base text-xs">
+                </div>
+                    {/* <div className="my-5 mx-[66px] sm:text-base text-xs">
                         <a href="/tohidkhorasani.pdf" className="button bg-[#4993cc] rounded-md sm:p-3 p-2 text-white">دانلود فایل رزومه</a>
+                    </div> */}
+                    <div className='w-[50%]'>
+
                     </div>
                 </div>
-
                 {/* ax  */}
                 <div>
 

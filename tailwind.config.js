@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      "xs": "480px",
+      "xs": "400px",
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
@@ -16,7 +16,9 @@ export default {
       container:{
         center:true,
         padding:{
-          DEFAULT:"3rem",
+          DEFAULT:"1rem",
+          // padding:"2rem",
+          // el:"3rem"
           // lg:"0.625rem",
         }
       },

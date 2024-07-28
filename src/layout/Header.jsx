@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 //components
 import MobileHeader from '../components/module/MobileHeader';
+// import logoy from "/logo/nexty.svg"
+import logoy from "/logo/logoy.svg"
 
 const Header = () => {
 
@@ -14,23 +16,25 @@ const Header = () => {
         </symbol>    
         </svg>
 
-        <header className=" flex items-center justify-between text-white bg-[#4993cc] w-full h-14 px-5 lg:px-10 py-5 mx-auto">
+        <header className="flex md:fixed top-9 right-0 z-30
+        left-0 w-[98%] lg:w-[90%] md:h-20 h-[70px] items-center justify-between text-zinc-700 rounded-3xl px-5 lg:px-10 py-5 mx-auto bg-white md:bg-white/50 md:backdrop-blur-[6px] ">
         {/* desktop header  */}
-        <div className="hidden sm:flex items-center gap-x-4 lg:gap-x-6 text-xs md:text-sm mr-16">
+        <div className="hidden sm:flex items-center gap-x-4 lg:gap-x-6 text-xs md:text-sm">
             <a href="#about" className='border-b-2 p-1.5 border-b-transparent hover:border-zinc-700 transition-all'>درباره من</a>
             <a href="#" className='border-b-2 p-1.5 border-b-transparent hover:border-zinc-700 transition-all'>مهارت ها</a>
             <a href="#" className='border-b-2 p-1.5 border-b-transparent hover:border-zinc-700 transition-all'>تجربه های شغلی</a>
             {/* <!-- <a href="#">دیگر فعالیت های شغلی</a> --> */}
-            <a href="#" className='border-b-2 p-1.5 border-b-transparent hover:border-zinc-700 transition-all'>اطلاعات تماس</a>
+            <a href="#call" className='border-b-2 p-1.5 border-b-transparent hover:border-zinc-700 transition-all'>اطلاعات تماس</a>
             {/* <!-- <a href="#">دریافت فایل رزومه</a> --> */}
         </div>
-        <div onClick={() => setIsOpen(true)} className='nav-icon flex sm:hidden items-center justify-between px-4 h-16 cursor-pointer'>
-            <svg className='w-6 h-6 text-white'>
+        <div onClick={() => setIsOpen(true)} className='nav-icon flex sm:hidden items-center justify-between px-4 cursor-pointer'>
+            <svg className='w-6 h-6 text-zinc-700'>
                 <use xlinkHref="#bars"></use>
             </svg>
         </div>
-        <div className="ml-16">
-            <p >توحید خراسانی</p>
+        <div className="">
+            {/* <p >توحید خراسانی</p> */}
+            <img src={logoy} alt='logo' className='md:w-[70px] md:h-16 w-14 h-14'/>
         </div>
     </header>
 
