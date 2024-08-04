@@ -23,15 +23,15 @@ import ax14 from "/logo/14.svg"
 const Address = () => {
     return (
         <div className='container tracking-tighter md:tracking-normal text-sm md:text-lg'>
-            <div className='grid md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-2  mt-16'>
-                <div id='call' className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center border-2 border-abi rounded-[10px]'>
+            <div className='grid md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-2 mt-16 text-white'>
+                <div id='call' className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi border-2 border-abi rounded-[10px]'>
                     <div className='flex '>
                     <PhoneIcon className='w-5 h-5' />
                     <p className='pr-1'>شماره تماس :</p>
                     </div>
                     09380206888
                 </div>
-                <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center border-2 border-abi rounded-[10px]'>
+                <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi border-2 border-abi rounded-[10px]'>
                     <div className='flex'>
                         <MapPinIcon className='w-5 h-5'/>
                         <p className='pr-1'>آدرس :</p>
@@ -39,13 +39,13 @@ const Address = () => {
                     <span className='p-2 tracking-tightest text-center'>
                     تهران ، میدان
                     ونک ، خیابان
-                    مالصدرا ، جنب
+                    ملاصدرا ، جنب
                     پل کردستان ،
                     پارادایس هاب
                     </span>
                 </div>
                 <div>
-                    <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center  border-2 border-abi rounded-[10px]'>
+                    <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi  border-2 border-abi rounded-[10px]'>
                     <p>دیگر راه های ارتباطی :</p>
                     <div className='flex pt-2'>
                     <a href='https://www.linkedin.com/in/tohidkhorasanib3148090' target="_blank" className='hover:text-zard transition-colors md:ml-8 ml-2'>

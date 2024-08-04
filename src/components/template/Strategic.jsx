@@ -47,7 +47,7 @@ const Strategic = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center whitespace-nowrap p-2 mx-auto w-[200px] border-2 border-abi rounded-[10px] hover:bg-sormei/10 transition-all cursor-pointer'>
+            <div className='flex justify-center whitespace-nowrap p-2 mx-auto w-[200px] hover:text-white bg-zard  rounded-[10px] hover:bg-abi transition-all cursor-pointer'>
                 <a href='#' className='inline-flex '>
                     ویدیو مشاوره استراتژیک
                     <ArrowLeftIcon className='w-5 pr-1'/>
