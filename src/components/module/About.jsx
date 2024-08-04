@@ -19,7 +19,7 @@ const About = () => {
             </section> 
             
 
-            <section className='md:w-[58%] w-full  p-5 border-2 border-[#4993cc68] rounded-[10px]'>
+            <section className='md:w-[58%] w-full  p-5 border-2 border-abi rounded-[10px]'>
                 <p>
                 آیا کسب و کار شما با چالش هایی مانند کاهش فروش یا نداشتن استراتژی مشخص
                 مواجه است؟
@@ -36,7 +36,7 @@ const About = () => {
             </div>
 
             <div>
-                <section className='flex w-[98%] p-5 mt-10 justify-center border-2 border-[#4993cc68] rounded-[10px]'>
+                <section className='flex w-[98%] p-5 mt-10 justify-center border-2 border-abi rounded-[10px]'>
                     <p>
                     دیگر راهکارهای سنتی پاسخگوی نیاز کسب و کارها نیست
                     امروز هر کسب و کاری نیازمند روش های خالقانه و نوآورانه برای رسیدن به اهداف خود می باشد.

@@ -1,4 +1,6 @@
 import React from 'react';
+//logo
+import next from "/logo/next3.svg"
 
 const MobileHeader = ({isOpen, setIsOpen}) => {
 
@@ -30,10 +32,10 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
         </svg>
 
         <div className={`${isOpen ? "right-0 " : "-right-64"} nav fixed z-20 top-0 bottom-0  w-64 pt-3 px-4 bg-white overflow-y-auto transition-all`}>
-            <div className='flex items-center justify-between pb-8 mb-6 border-b border-b-gray-100 '>
+            <div className='flex items-center justify-between pb-2 mb-6 border-b border-b-gray-100 '>
             
             <div>
-                <p>hi</p>
+                <img src={next} alt='logo' className='w-12 h-12'/>
             </div>
 
             <div onClick={() => setIsOpen(false)} className=" nav-close-btn text-end">

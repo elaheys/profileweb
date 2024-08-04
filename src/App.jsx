@@ -7,6 +7,7 @@ import Call from "./components/template/Call"
 import CallFooter from "./components/template/CallFooter"
 import Strategic from "./components/template/Strategic"
 import Layout from "./layout/Layout"
+import Address from "./components/template/Address"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Strategic/>
       <Business/>
       <CallFooter/>
+      <Address/>
       <Skills/>
     </Layout>
   )

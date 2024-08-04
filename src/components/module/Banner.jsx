@@ -5,7 +5,7 @@ const Banner = () => {
         <div className='banner'>
             <section className="flex md:h-[450px] h-[400px] min-h-80 bg-[#4993cc]/10">
             <div className='flex flex-col'>
-                <div className="w-[90%] md:mt-40 mt-12 border-2 border-[#4993cc68] rounded-[30px] md:items-start px-5 pt-3 sm:mx-[60px] lg:mx-[70px] mx-auto">
+                <div className="w-[90%] md:mt-40 mt-12 border-2 border-abi rounded-[30px] md:items-start px-5 pt-3 sm:mx-[60px] lg:mx-[70px] mx-auto">
 
                     <h3 className="text-lg pr-3 font-IranYekanBold">
                         توحید خراسانی

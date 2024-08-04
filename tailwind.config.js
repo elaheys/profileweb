@@ -34,6 +34,11 @@ export default {
         "IranYekanMedium":"IranYekan Medium",
         "IranYekanRegular":"IranYekan Regular",
         "IranYekanThin":"IranYekan Thin"
+      },
+      colors:{
+        "zard":"#f9d110",
+        "abi":"#4587d5",
+        "sormei":"#142336"
       }
     },
   },

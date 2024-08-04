@@ -5,11 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin,faTelegram} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
+// http://52.59.121.162/wp-admin/admin.php?page=wp-mail-smtp
+
 const Footer = () => {
     return (
         <>
-        <div id='call' className=" text-white bg-[#4993cc]">
-            <div className='container grid grid-cols-3 gap-x-8'>
+        <div className=" text-white bg-[#142336]">
+            {/* <div className='container grid grid-cols-3 gap-x-8'>
                 <section className='mt-5'>
                     <div className='flex'>
                     <PhoneIcon className='w-5 h-5' />
@@ -46,9 +48,9 @@ const Footer = () => {
                     </a>
                     </div>
                 </section> 
-            </div>
+            </div> */}
             
-            <p className='container flex justify-center items-center text-xs tracking-tightest md:tracking-normal h-fit pt-8 pb-2 '>1403 © تمامی حقوق این وبسایت محفوظ است. کپی به هرشکل غیرمجاز و غیرقانونی است.</p>
+            <p className='container flex justify-center items-center text-xs tracking-tightest md:tracking-normal h-fit py-5'>1403 © تمامی حقوق این وبسایت محفوظ است. کپی به هرشکل غیرمجاز و غیرقانونی است.</p>
         </div>
         </>
     );

@@ -2,9 +2,9 @@ import React from 'react';
 
 const CallFooter = () => {
     return (
-        <div className='flex items-center justify-center w-full h-1/2 mt-40 text-white bg-blue-500'>
-            <div className='p-5'>
-                <h5> جهت دریافت مشاوره همین الان <a href='#call' className='text-yellow-400 text-3xl'>تماس</a> بگیرید.</h5>
+        <div className='flex items-center justify-center w-full h-1/2 my-40 text-white bg-sormei'>
+            <div className='p-5 text-nowrap tracking-tightest md:tracking-normal'>
+                <h5 className='text-sm md:text-xl'> جهت دریافت مشاوره همین الان <a href='#call' className='text-zard md:text-3xl text-xl'>تماس</a> بگیرید.</h5>
             </div>
         </div>
     );

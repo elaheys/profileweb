@@ -1,9 +1,11 @@
 import React from 'react';
 //png
-import target from "/target1.png";
-import sell from "/exchange.png";
-import rival from "/podium.png";
-import innovation from "/innovation.png";
+// import target from "/target1.png";
+import target from "/logo/2.svg";
+// import sell from "/exchange.png";
+import sell from "/logo/7.svg";
+import rival from "/logo/1.svg";
+import innovation from "/logo/11.svg";
 
 const Aim = () => {
     return (
