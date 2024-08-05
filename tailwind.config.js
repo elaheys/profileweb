@@ -39,6 +39,10 @@ export default {
         "zard":"#f9d110",
         "abi":"#4587d5",
         "sormei":"#142336"
+      },
+      backgroundImage:{
+        "home-desktop":"url(/tohidkhorasani/hero-2.webp)",
+        "home-mobile":"url(./assets/headerBgDesktop.webp)"
       }
     },
   },
