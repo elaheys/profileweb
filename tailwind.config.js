@@ -36,7 +36,7 @@ export default {
         "IranYekanThin":"IranYekan Thin"
       },
       boxShadow:{
-        "normal":"0px 1px 10px 0px rgba(20,35,54,1)",
+        "normal":"0px 1px 10px 0px rgba(20,35,54,0.2)",
       },
       colors:{
         "zard":"#f9d110",

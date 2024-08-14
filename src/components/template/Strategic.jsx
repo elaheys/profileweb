@@ -14,34 +14,34 @@ const Strategic = () => {
                 <h3>چرا مشاوره استراتژیک ؟</h3>
             </div>
 
-            <div className='services my-20'>
+            <div className='services my-10'>
                 <div className='flex items-center justify-between gap-y-11 flex-wrap child:w-1/2 lg:child:w-auto child:text-center lg:child:text-right text-zinc-700 '>
 
                     <div className='flex items-center flex-col gap-x-4 gap-y-5'>
-                    <img className='md:w-16 w-12 md:h-16 h-12' src={target} alt='icon'/>
+                    <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={target} alt='icon'/>
                     <div>
-                        <p>تدوین استراتژی</p>
+                        <p className='md:text-lg'>تدوین استراتژی</p>
                     </div>
                     </div>
 
                     <div className='flex items-center flex-col gap-x-4 gap-y-5'>
-                        <img className='md:w-16 w-12 md:h-16 h-12' src={sell} alt='icon'/>
+                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={sell} alt='icon'/>
                     <div>
-                        <p>تحلیل بازار</p>
+                        <p className='md:text-lg'>تحلیل بازار</p>
                     </div>
                     </div>
 
                     <div className='flex items-center flex-col gap-x-4 gap-y-5'>
-                        <img className='md:w-16 w-12 md:h-16 h-12' src={rival} alt='icon'/>
+                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={rival} alt='icon'/>
                     <div>
-                        <p>برنامه ریزی توسعه</p>
+                        <p className='md:text-lg'>برنامه ریزی توسعه</p>
                     </div>
                     </div>
 
                     <div className='flex items-center flex-col gap-x-4 gap-y-5'>
-                        <img className='md:w-16 w-12 md:h-16 h-12' src={innovation} alt='icon'/>
+                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={innovation} alt='icon'/>
                     <div>
-                        <p>فرصت ها و تهدیدها</p>
+                        <p className='md:text-lg'>فرصت ها و تهدیدها</p>
                     </div>
                     </div>
                 </div>

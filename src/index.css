@@ -185,7 +185,7 @@ html,body{
 }
 
 .aim{
-  @apply absolute inset-0 md:top-[490px] top-[600px] justify-center;
+  @apply absolute inset-0 md:top-[490px] sm:top-[600px] top-[350px] justify-center;
 }
 
 /* .address{
