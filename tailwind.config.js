@@ -35,6 +35,9 @@ export default {
         "IranYekanRegular":"IranYekan Regular",
         "IranYekanThin":"IranYekan Thin"
       },
+      boxShadow:{
+        "normal":"0px 1px 10px 0px rgba(20,35,54,1)",
+      },
       colors:{
         "zard":"#f9d110",
         "abi":"#4587d5",

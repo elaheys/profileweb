@@ -21,17 +21,27 @@ import ax13 from "/logo/13.svg"
 import ax14 from "/logo/14.svg"
 
 const Address = () => {
+    // 09380206888
     return (
+        <div className='relative top-14 z-10'>
         <div className='container tracking-tighter md:tracking-normal text-sm md:text-lg'>
-            <div className='grid md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-2 mt-16 text-white'>
-                <div id='call' className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi border-2 border-abi rounded-[10px]'>
-                    <div className='flex '>
-                    <PhoneIcon className='w-5 h-5' />
-                    <p className='pr-1'>شماره تماس :</p>
+            <div className=' mt-16 text-white'>
+                <div id='call' className='flex justify-between w-[90%] h-40 mx-auto bg-abi'>
+                    <div className='flex items-center mr-20'>
+                        <img src={ax5}  alt='ax' className='w-[80px] h-[80px]'/>
+                        <div className='mr-5'>
+                            <p className=''>همین حالا با ما تماس بگیرید</p>
+                            <p className='text-[50px] pt-5 text-zard'>0938-020-6888</p>
+                        </div>
                     </div>
-                    09380206888
+                    
+                    <div className='flex flex-col items-center justify-center  ml-20 '>
+                        <p className='text-zard ml-80'>با ما در ارتباط باشید</p>
+                        <p className='text-white pt-5 text-[30px] tracking-tighter'>برای مشاوره و راهنمایی با ما در ارتباط باشید</p>
+                    </div>
+                    
                 </div>
-                <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi border-2 border-abi rounded-[10px]'>
+                {/* <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi border-2 border-abi rounded-[10px]'>
                     <div className='flex'>
                         <MapPinIcon className='w-5 h-5'/>
                         <p className='pr-1'>آدرس :</p>
@@ -43,8 +53,8 @@ const Address = () => {
                     پل کردستان ،
                     پارادایس هاب
                     </span>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi  border-2 border-abi rounded-[10px]'>
                     <p>دیگر راه های ارتباطی :</p>
                     <div className='flex pt-2'>
@@ -61,7 +71,7 @@ const Address = () => {
                     </a>
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             {/* <img src={ax1}  alt='ax' className='w-10 h-10 text-zard'/>
@@ -80,6 +90,7 @@ const Address = () => {
             <img src={ax14}  alt='ax' className='w-10 h-10 text-zard'/> */}
             
           
+        </div>
         </div>
     );
 };

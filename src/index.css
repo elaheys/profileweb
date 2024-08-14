@@ -185,8 +185,12 @@ html,body{
 }
 
 .aim{
-  @apply absolute inset-0 md:top-[490px] top-[280px] justify-center;
+  @apply absolute inset-0 md:top-[490px] top-[600px] justify-center;
 }
+
+/* .address{
+  @apply absolute inset-0 md:top-[490px] top-[280px] justify-center;
+} */
 
 /* .aim{
   position: absolute;

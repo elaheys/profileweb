@@ -17,8 +17,12 @@ const Header = () => {
         </svg>
 
         <header className="flex md:fixed top-9 right-0 z-30
-        left-0 w-[98%] lg:w-[90%] md:h-20 h-[70px] items-center justify-between text-white rounded-3xl px-5 lg:px-10 py-5 mx-auto bg-white md:bg-sormei/70 md:backdrop-blur-[6px] ">
+        left-0 w-[98%] lg:w-[90%] md:h-20 h-[70px] items-center rounded-[20px] text-white px-5 lg:px-10 py-5 mx-auto bg-white md:bg-sormei/70 md:backdrop-blur-[6px] ">
         {/* desktop header  */}
+        <div className="ml-8">
+            {/* <p >توحید خراسانی</p> */}
+            <img src={next} alt='logo' className='md:w-[70px] md:h-16 w-14 h-14'/>
+        </div>
         <div className="hidden md:flex items-center gap-x-4 lg:gap-x-6 text-xs md:text-sm">
             <a href="#about" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>درباره من</a>
             <a href="#" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>مهارت ها</a>
@@ -32,10 +36,7 @@ const Header = () => {
                 <use xlinkHref="#bars"></use>
             </svg>
         </div>
-        <div className="">
-            {/* <p >توحید خراسانی</p> */}
-            <img src={next} alt='logo' className='md:w-[70px] md:h-16 w-14 h-14'/>
-        </div>
+        
     </header>
 
         <MobileHeader isOpen={isOpen} setIsOpen={setIsOpen}/>

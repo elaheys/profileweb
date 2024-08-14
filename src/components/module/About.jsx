@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer'
+import tohid from "../../../public/tohidkhorasani/3.webp"
 
 const About = () => {
 
@@ -14,12 +15,12 @@ const About = () => {
         
             <div id='about' className='container text-justify md:mt-32 mt-64 ' >
             <div className='flex flex-col md:flex-row'>
-            <section className='md:w-[40%] w-full'>
-                
+            <section className='md:w-[50%] w-full'>
+                <img src={tohid} alt='khorasani' className='w-[500px] h-[500px] object-cover'/>
             </section> 
             
 
-            <section className='md:w-[58%] w-full  p-5 border-2 border-abi rounded-[10px]'>
+            <section className='md:w-[50%] w-full  p-5'>
                 <p>
                 آیا کسب و کار شما با چالش هایی مانند کاهش فروش یا نداشتن استراتژی مشخص
                 مواجه است؟
@@ -36,7 +37,7 @@ const About = () => {
             </div>
 
             <div>
-                <section className='flex w-[98%] p-5 mt-10 justify-center border-2 border-abi rounded-[10px]'>
+                <section className='flex w-[98%] text-lg tracking-tighter p-5 mt-10 justify-center rounded-[10px] shadow-normal'>
                     <p>
                     دیگر راهکارهای سنتی پاسخگوی نیاز کسب و کارها نیست
                     امروز هر کسب و کاری نیازمند روش های خالقانه و نوآورانه برای رسیدن به اهداف خود می باشد.

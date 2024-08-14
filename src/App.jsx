@@ -18,10 +18,10 @@ function App() {
       <Call/>
       <About/>
       <Strategic/>
-      <Business/>
       <CallFooter/>
-      <Address/>
+      <Business/>
       <Skills/>
+      <Address/>
     </Layout>
   )
 }

@@ -5,9 +5,9 @@ import tohid from "/tohidkhorasani/hero-2.webp"
 const Banner = () => {
     return (
         <div className='banner'>
-            <section className="flex h-[200px] sm:h-[650px] gap-x-96 min-h-80 bg-home-desktop bg-no-repeat bg-cover bg-[center_top]">
+            <section className="flex h-[200px] sm:h-[650px] gap-x-96 min-h-80 md:bg-home-desktop md:bg-no-repeat md:bg-cover md:bg-[center_top] bg-abi/10">
             <div className='flex flex-col'>
-                <div className="md:w-[70%] w-[90%] md:mt-40 mt-12 border-2 border-abi rounded-[30px] md:items-start px-5 pt-3 sm:mx-[60px] lg:mx-[70px] mx-auto">
+                <div className="md:w-[70%] w-[90%] md:mt-40 mt-12 rounded-[20px] border-2 bg-white md:items-start px-5 pt-3 sm:mx-[60px] lg:mx-[70px] mx-auto shadow-md">
 
                     <h3 className="text-lg pr-3 font-IranYekanBold">
                         توحید خراسانی
