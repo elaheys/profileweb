@@ -40,6 +40,7 @@ const Address = () => {
                         <p className='text-white pt-5 pr-10  xl:text-[30px] lg:text-[20px] tracking-tighter'>برای مشاوره و راهنمایی با ما در ارتباط باشید</p>
                     </div>
                     
+                    
                 </div>
                 {/* <div className='w-[70%] h-40 mx-auto flex flex-col justify-center items-center bg-abi border-2 border-abi rounded-[10px]'>
                     <div className='flex'>

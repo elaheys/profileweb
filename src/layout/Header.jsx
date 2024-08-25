@@ -16,9 +16,11 @@ const Header = () => {
         </symbol>    
         </svg>
 
-        <header className="flex md:fixed top-9 right-0 z-30
+        <header className="flex justify-between md:fixed top-5 right-0 z-30
         left-0 w-[98%] lg:w-[90%] md:h-20 h-[70px] items-center rounded-[20px] text-white px-5 lg:px-10 py-5 mx-auto bg-white md:bg-sormei/70 md:backdrop-blur-[6px] ">
         {/* desktop header  */}
+        {/* <div className='flex justify-between '> */}
+        <div className='flex'>
         <div className="ml-8 md:flex hidden">
             {/* <p >توحید خراسانی</p> */}
             <img src={next} alt='logo' className='md:w-[70px] md:h-16 w-14 h-14'/>
@@ -31,11 +33,20 @@ const Header = () => {
             <a href="#call" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>اطلاعات تماس</a>
             {/* <!-- <a href="#">دریافت فایل رزومه</a> --> */}
         </div>
-        <div onClick={() => setIsOpen(true)} className='nav-icon flex md:hidden items-center justify-between px-4 cursor-pointer'>
+        <div onClick={() => setIsOpen(true)} className='nav-icon flex  md:hidden items-center justify-between cursor-pointer'>
             <svg className='w-6 h-6 text-sormei'>
                 <use xlinkHref="#bars"></use>
             </svg>
         </div>
+        </div>
+        
+        <div className="md:ml-8 ">
+            {/* <p >توحید خراسانی</p> */}
+            <a href="#call" className='text-zard hover:text-white transition-colors'>مشاوره رایگان</a>
+        </div>
+        
+        {/* </div> */}
+        
         
     </header>
 

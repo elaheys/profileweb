@@ -58,6 +58,7 @@
 
 html,body{
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 .overlay{
@@ -114,6 +115,14 @@ html,body{
       width: 100%;
   }
   
+}
+
+.swiper-slide{
+  margin: 0 19px !important;
+}
+
+.mySwiper{
+  @apply h-48 w-48 text-center shadow-normal rounded-[10px] p-5 mb-5 bg-white
 }
 
 .services{

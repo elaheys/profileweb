@@ -13,15 +13,15 @@ const About = () => {
     return (
         <>
         
-            <div id='about' className='container text-justify md:mt-32 mt-64 ' >
+            <div id='about' className='container text-justify md:mt-32 mt-12 ' >
             <div className='flex flex-col md:flex-row'>
-            <section className='md:w-[50%] w-full'>
-                <img src={tohid} alt='khorasani' className='w-[500px] h-[500px] object-cover'/>
-            </section> 
+            {/* <section className='w-full'> */}
+                <img src={tohid} alt='khorasani' className='w-[400px] h-[400px] rounded-[20px] object-cover'/>
+            {/* </section>  */}
             
 
-            <section className='md:w-[50%] w-full  p-5'>
-                <p>
+            {/* <section className='w-full '> */}
+                <p className='md:pr-10 pt-12 md:pt-0'>
                 آیا کسب و کار شما با چالش هایی مانند کاهش فروش یا نداشتن استراتژی مشخص
                 مواجه است؟
                 آیا فکر می کنید سهم درستی از بازار نصیب کسب و کار شما نشده است ؟
@@ -33,17 +33,17 @@ const About = () => {
                 ما میخواهیم در کنار شما این چالش ها را به فرصت های جدید و سودآور تبدیل
                 کنیم.
                 </p>
-            </section>
+            {/* </section> */}
             </div>
 
-            <div>
+            {/* <div>
                 <section className='flex w-[98%] text-lg tracking-tighter p-5 mt-10 justify-center rounded-[10px] shadow-normal'>
                     <p>
                     دیگر راهکارهای سنتی پاسخگوی نیاز کسب و کارها نیست
                     امروز هر کسب و کاری نیازمند روش های خالقانه و نوآورانه برای رسیدن به اهداف خود می باشد.
                     </p>
                 </section>
-            </div>
+            </div> */}
 
             
         </div>
