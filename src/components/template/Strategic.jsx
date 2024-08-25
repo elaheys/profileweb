@@ -15,7 +15,7 @@ const Strategic = () => {
             </div>
 
             <div className='services my-12'>
-                <div className='flex items-center justify-between gap-y-11 flex-wrap child:mx-8 child:w-1/2 lg:child:w-[220px] child:text-center lg:child:text-right text-zinc-900 '>
+                <div className='flex items-center justify-between gap-y-11 flex-wrap lg:child:mx-8 child:w-1/2 lg:child:w-[220px] child:text-center lg:child:text-right text-zinc-900 '>
 
                     <div className='flex items-center flex-col gap-y-5 -mb-3'>
                     <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={target} alt='icon'/>
