@@ -27,7 +27,7 @@ const Footer = () => {
                     <span>
                     تهران ، میدان
                     ونک ، خیابان
-                    مالصدرا ، جنب
+                    ملاصدرا ، جنب
                     پل کردستان ،
                     پارادایس هاب
                     </span>
@@ -35,11 +35,11 @@ const Footer = () => {
                 <section className='md:flex mt-[100px]'>
                     <p>دیگر راه های ارتباطی :</p>
                     <div className='mx-auto'>
-                    <a href='https://www.linkedin.com/in/tohidkhorasanib3148090' target="_blank" className='hover:text-zard transition-colors md:ml-8 ml-2'>
+                    <a href='https://www.linkedin.com/in/tohid-khorasani-b3148090' target="_blank" className='hover:text-zard transition-colors md:ml-8 ml-2'>
                         <FontAwesomeIcon icon={faLinkedin} className='md:w-7 w-5 md:h-7 h-5'/>
                     </a>
                     
-                    <a href='mailto:' target="_blank" className='hover:text-zard transition-colors md:ml-8 ml-2'>
+                    <a href='mailto:Tohid.khorasani@gmail.com' target="_blank" className='hover:text-zard transition-colors md:ml-8 ml-2'>
                         <FontAwesomeIcon icon={faEnvelope} className='md:w-7 w-5 md:h-7 h-5'/>
                     </a>
 

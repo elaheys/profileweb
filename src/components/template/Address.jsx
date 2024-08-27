@@ -30,14 +30,14 @@ const Address = () => {
                     <div className='flex items-center mr-10'>
                         <img src={ax5}  alt='ax' className='lg:w-[80px] md:w-[60px] w-[40px] lg:h-[80px] md:h-[60px] h-[40px]'/>
                         <div className='lg:mr-5 mr-2'>
-                            <p className='tracking-tighter text-sm sm:text-base md:text-lg'>همین حالا با ما تماس بگیرید</p>
+                            <p className='tracking-tighter text-sm sm:text-base md:text-lg'>یک جلسه مشاوره رایگان</p>
                             <p className='xl:text-[50px] sm:text-[25px] text-[20px] tracking-tighter lg:pt-5 sm:pt-3  text-zard whitespace-nowrap'>0938-020-6888</p>
                         </div>
                     </div>
 
                     <div className='flex flex-col items-center justify-center  lg:ml-20 ml-10'>
                         {/* <p className='text-zard ml-80'>با ما در ارتباط باشید</p> */}
-                        <p className='text-white pt-5 pr-10  xl:text-[30px] lg:text-[20px] tracking-tighter'>برای مشاوره و راهنمایی با ما در ارتباط باشید</p>
+                        <p className='text-white pt-5 pr-10  xl:text-[30px] lg:text-[20px] tracking-tighter'>برای مشاوره همین حالا تماس بگیرید</p>
                     </div>
                     
                     
