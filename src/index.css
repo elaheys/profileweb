@@ -197,6 +197,23 @@ html,body{
   @apply absolute inset-0 md:top-[490px] sm:top-[600px] top-[350px] justify-center;
 }
 
+.line:hover{
+  animation-duration: 2s;
+  animation-name: lineAnimate;
+  border-bottom:border 1px solid #f9d110;
+}
+
+@keyframes lineAnimate {
+  0%{
+    transform: translate(0);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(100);
+    opacity: 1;
+  }
+}
+
 /* .address{
   @apply absolute inset-0 md:top-[490px] top-[280px] justify-center;
 } */

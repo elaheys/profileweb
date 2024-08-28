@@ -14,8 +14,8 @@ const Strategic = () => {
                 <h3>چرا مشاوره استراتژیک ؟</h3>
             </div>
 
-            <div className='services mb-12'>
-                <div className='flex items-center justify-between gap-y-11 flex-wrap lg:child:mx-8 child:w-1/2 lg:child:w-[220px] child:text-center lg:child:text-right text-zinc-900'>
+            <div className=' mb-12'>
+                <div className='flex flex-col md:flex-row items-center justify-between gap-y-11 flex-wrap lg:child:mx-8 child:w-1/2 lg:child:w-[220px] child:text-center lg:child:text-right text-zinc-900'>
 
                     <div className='flex items-center flex-col gap-y-5 -mb-3 shadow-normal rounded-[10px] p-10  bg-white'>
                     <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={target} alt='icon'/>
