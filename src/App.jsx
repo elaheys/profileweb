@@ -18,7 +18,7 @@ function App() {
       <Call/>
       <About/>
       <Strategic/>
-      <CallFooter/>
+      {/* <CallFooter/> */}
       <Business/>
       <Skills/>
       <Address/>
