@@ -16,7 +16,7 @@ const Skills = () => {
 
 
     return (
-        <div className='bg-zard '>
+        <div className='bg-abi'>
             <div className='flex justify-center items-center text-base md:text-2xl py-12'>
                 <h3 className=''>همراه با برندهای بزرگ کشور</h3>
             </div>

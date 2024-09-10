@@ -21,6 +21,15 @@ function App() {
       {/* <CallFooter/> */}
       <Business/>
       <Skills/>
+      
+            <div>
+                <section className='flex  text-lg tracking-tighter p-5 mt-16 justify-center  shadow-normal'>
+                    <p>
+                    دیگر راهکارهای سنتی پاسخگوی نیاز کسب و کارها نیست
+                    امروز هر کسب و کاری نیازمند روش های خالقانه و نوآورانه برای رسیدن به اهداف خود می باشد.
+                    </p>
+                </section>
+            </div>
       <Address/>
     </Layout>
   )

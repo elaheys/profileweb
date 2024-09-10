@@ -13,15 +13,15 @@ const About = () => {
     return (
         <>
         
-            <div id='about' className='container text-justify md:mt-32 mt-12 ' >
-            <div className='flex flex-col md:flex-row'>
+            <div id='about' className='container text-justify md:mt-28 mt-12 ' >
+            <div className='flex flex-col md:flex-row md:mr-[200px]'>
             {/* <section className='w-full'> */}
                 <img src={tohid} alt='khorasani' className='md:w-[300px] md:h-[300px] rounded-[20px] object-cover'/>
             {/* </section>  */}
             
 
             {/* <section className='w-full '> */}
-                <p className='md:pr-10 pt-12 md:pt-0 md:w-[40%] md:h-[40%] tracking-wide leading-8'>
+                <p className='md:pr-10 pt-12 md:pt-0 md:w-[50%] md:h-[50%] tracking-wide leading-8'>
                 آیا کسب و کار شما با چالش هایی مانند کاهش فروش یا نداشتن استراتژی مشخص
                 مواجه است؟
                 آیا فکر می کنید سهم درستی از بازار نصیب کسب و کار شما نشده است ؟
