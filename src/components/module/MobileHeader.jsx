@@ -59,38 +59,38 @@ const MobileHeader = ({isOpen, setIsOpen}) => {
                     </a>
                 </li>
                 <li>
-                    <a href='#' className='flex items-center gap-x-2'>
+                    <a href='#strategic' onClick={() => setIsOpen(false)} className='flex items-center gap-x-2'>
                     <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#briefcase"></use>
                     </svg>
-                        مهارت ها
+                         مشاوره استراتژیک
                     </a>
                 </li>
                 <li>
-                    <a href='#' className='flex items-center gap-x-2'>
+                    <a href='#business' onClick={() => setIsOpen(false)} className='flex items-center gap-x-2'>
                     <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#work"></use>
                     </svg>
-                         تجربه های شغلی
+                          مشاوره بازاریابی 
                     </a>
                 </li>
                 
                 <li>
-                    <a href='#' className='flex items-center gap-x-2'>
+                    <a href='#call' onClick={() => setIsOpen(false)} className='flex items-center gap-x-2'>
                     <svg className='w-5 h-5 text-zinc-600 '>
                        <use xlinkHref="#phone"></use>
                     </svg>
-                        تماس با من
+                         اطلاعات تماس 
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a href='#' className='flex items-center gap-x-2'>
                     <svg className='w-5 h-5 text-zinc-600 '>
                         <use xlinkHref="#arrowdown"></use>
                     </svg>
                          دریافت فایل رزومه
                     </a>
-                </li>
+                </li> */}
             </ul>
         </div>
 

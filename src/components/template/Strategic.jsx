@@ -1,24 +1,24 @@
 import React from 'react';
 //png
-import target from "/logo/2.svg";
-import sell from "/logo/1.svg";
-import rival from "/logo/7.svg";
-import innovation from "/logo/11.svg";
+import sell from "/Newsvg/sell.svg";
+import strategic2 from "/Newsvg/strategic2.svg";
+import rival from "/Newsvg/rival.svg";
+import chances from "/Newsvg/chances.svg";
 //icon
 import { ArrowLeftIcon, ChevronLeftIcon } from '@heroicons/react/24/outline';
 
 const Strategic = () => {
     return (
-        <div className='py-1 mt-12 bg-zard'>
+        <div id="strategic" className='py-1 mt-12 bg-zard'>
             <div className='flex justify-center items-center text-base md:text-2xl py-12'>
                 <h3>چرا مشاوره استراتژیک ؟</h3>
             </div>
 
             <div className=' mb-12'>
-                <div className='flex flex-col md:flex-row items-center justify-between gap-y-11 flex-wrap lg:child:mx-8 child:w-1/2 lg:child:w-[220px] child:text-center lg:child:text-right text-zinc-900'>
+                <div className='flex flex-col md:flex-row items-center justify-between gap-y-11 flex-wrap lg:child:mx-6 child:w-[300px] lg:child:w-[280px] child:text-center lg:child:text-right text-zinc-900'>
 
-                    <div className='flex items-center flex-col gap-y-5 -mb-3 shadow-normal rounded-[10px] p-10  bg-white'>
-                    <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={target} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] p-10  bg-white'>
+                    <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={strategic2} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>تدوین استراتژی</p>
                     </div>
@@ -39,7 +39,7 @@ const Strategic = () => {
                     </div>
 
                     <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={innovation} alt='icon'/>
+                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={chances} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>فرصت ها و تهدیدها</p>
                     </div>

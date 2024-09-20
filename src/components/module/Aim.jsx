@@ -6,6 +6,7 @@ import target from "/logo/2.svg";
 import sell from "/logo/7.svg";
 import rival from "/logo/1.svg";
 import innovation from "/logo/11.svg";
+import business from "/logo/3.svg"
 
 const Aim = () => {
     return (
@@ -21,21 +22,21 @@ const Aim = () => {
             </div>
 
             <div className='flex items-center flex-col  bg-white border border-gray-200 p-4 gap-x-4 gap-y-4 rounded-[20px] shadow-md'>
-                <img className='md:w-16 w-12 md:h-16 h-12' src={sell} alt='icon'/>
+                <img className='md:w-16 w-12 md:h-16 h-12' src={business} alt='icon'/>
                 <div>
                     <p>بازاریابی و فروش</p>
                 </div>
             </div>
 
             <div className='flex items-center flex-col  bg-white border border-gray-200 p-4 gap-x-4 gap-y-4 rounded-[20px] shadow-md'>
-                <img className='md:w-16 w-12 md:h-16 h-12' src={rival} alt='icon'/>
+                <img className='md:w-16 w-12 md:h-16 h-12' src={innovation} alt='icon'/>
                 <div>
                     <p>مشاوره مدیریت</p>
                 </div>
             </div>
 
             <div className='flex items-center flex-col  bg-white border border-gray-200 p-4 gap-x-4 gap-y-4 rounded-[20px] shadow-md'>
-                <img className='md:w-16 w-12 md:h-16 h-12' src={innovation} alt='icon'/>
+                <img className='md:w-16 w-12 md:h-16 h-12' src={sell} alt='icon'/>
                 <div>
                     <p>مشاوره مالی</p>
                 </div>

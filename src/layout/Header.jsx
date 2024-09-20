@@ -27,8 +27,8 @@ const Header = () => {
         </div>
         <div className="hidden md:flex items-center gap-x-4 lg:gap-x-6 text-xs md:text-sm">
             <a href="#about" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>درباره من</a>
-            <a href="#" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>مهارت ها</a>
-            <a href="#" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>تجربه های شغلی</a>
+            <a href="#strategic" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>مشاوره استراتژیک</a>
+            <a href="#business" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>مشاوره بازاریابی</a>
             {/* <!-- <a href="#">دیگر فعالیت های شغلی</a> --> */}
             <a href="#call" className='border-b-2 p-1.5 border-b-transparent hover:border-zard transition-all'>اطلاعات تماس</a>
             {/* <!-- <a href="#">دریافت فایل رزومه</a> --> */}

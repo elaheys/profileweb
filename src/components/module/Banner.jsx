@@ -5,7 +5,7 @@ import tohid from "/tohidkhorasani/hero-2.webp"
 const Banner = () => {
     return (
         <div className='banner'>
-            <section className="flex h-[400px] sm:h-[650px] sm:gap-x-96 min-h-80 md:bg-home-desktop md:bg-no-repeat md:bg-cover md:bg-[center_top] bg-abi/10">
+            <section className="flex h-[400px] sm:h-[650px] sm:gap-x-96 min-h-80 md:bg-home-desktop md:bg-no-repeat md:bg-cover md:bg-[center_top] bg-sormei/80">
             <div className='flex flex-col mx-auto md:mx-0'>
                 <div className="md:w-[70%] w-[100%] mx-auto md:mt-40  mt-12 rounded-[20px] bg-white md:items-start px-6 py-5 md:mx-[60px] lg:mx-[70px] shadow-md">
 

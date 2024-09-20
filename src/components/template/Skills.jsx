@@ -21,7 +21,6 @@ const Skills = () => {
                 <h3 className=''>همراه با برندهای بزرگ کشور</h3>
             </div>
             <Swiper
-            
             slidesPerView={2}
             spaceBetween={14}
             onBeforeInit={(swiper) => {
@@ -66,8 +65,7 @@ const Skills = () => {
                     <img src={lifestar} alt='lifestar' className='w-[190px] h-[130px] mySwiper'/>    
                 </SwiperSlide>
             </Swiper>
-            
-        </div>
+            </div>
     );
 };
 

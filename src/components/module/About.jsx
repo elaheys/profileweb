@@ -13,7 +13,7 @@ const About = () => {
     return (
         <>
         
-            <div id='about' className='container text-justify md:mt-28 mt-12 ' >
+            <div id='about' className='container text-justify md:my-20 mt-12 ' >
             <div className='flex flex-col md:flex-row md:mr-[200px]'>
             {/* <section className='w-full'> */}
                 <img src={tohid} alt='khorasani' className='md:w-[300px] md:h-[300px] rounded-[20px] object-cover'/>

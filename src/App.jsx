@@ -23,11 +23,11 @@ function App() {
       <Skills/>
       
             <div>
-                <section className='flex  text-lg tracking-tighter p-5 mt-16 justify-center  shadow-normal'>
-                    <p>
+                <section className='flex text-center md:text-lg text-base tracking-tighter p-5 mt-16 justify-center'>
+                    <li>
                     دیگر راهکارهای سنتی پاسخگوی نیاز کسب و کارها نیست
-                    امروز هر کسب و کاری نیازمند روش های خالقانه و نوآورانه برای رسیدن به اهداف خود می باشد.
-                    </p>
+                    امروز هر کسب و کاری نیازمند روش های خلاقانه و نوآورانه برای رسیدن به اهداف خود می باشد.
+                    </li>
                 </section>
             </div>
       <Address/>

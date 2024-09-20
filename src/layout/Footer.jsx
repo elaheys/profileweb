@@ -10,7 +10,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 const Footer = () => {
     return (
         <div className='relative  '>
-        <div className=" text-white bg-[#142336]">
+        <div className=" text-white bg-sormei/80">
             <div className='container grid md:grid-cols-2 grid-cols-1  py-8'> 
                 {/* <section className='mt-5'>
                     <div className='flex'>
