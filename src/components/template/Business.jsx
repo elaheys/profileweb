@@ -13,13 +13,13 @@ const Business = () => {
             </div>
 
             <div className=' mb-12'>
-                <div className='flex flex-col md:flex-row items-center justify-between gap-y-11 flex-wrap lg:child:mx-6 child:w-[300px] lg:child:w-[290px] child:text-center lg:child:text-right text-zinc-900'>
+                <div className='grid lg:grid-cols-4 grid-cols-1 gap-y-4 gap-x-4 md:mx-4 mx-6 child:text-center lg:child:text-right text-zinc-900'>
 
-                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] p-10  bg-white'>
-                    <img className='md:w-[120px] w-24 md:h-[120px] h-24' src={strategic} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 md:px-10 px-14 bg-white'>
+                    <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={strategic} alt='icon'/>
                     <div className='text-right'>
-                    <p className='md:text-base tracking-tightest'>تدوین استراتژی بازاریابی و تبلیغات</p>
-                         <div className='block text-[12px]'> 
+                    <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>تدوین استراتژی بازاریابی و تبلیغات</p>
+                         <div className='block font-IranYekanMedium md:text-[14px]'> 
                            <li >تعیین هویت برند</li>
                            <li >ساختاردهی تصویر برند</li>
                            <li >مدیریت ارتباطات برند</li>
@@ -30,11 +30,11 @@ const Business = () => {
                     
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[120px] w-24 md:h-[120px] h-24' src={businessA} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 px-10 bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={businessA} alt='icon'/>
                         <div className='text-right'>
-                         <p className='md:text-base tracking-tightest'>تحقیقات بازار و تحلیل رقبا</p>
-                         <div className='block text-[12px]'> 
+                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>تحقیقات بازار و تحلیل رقبا</p>
+                         <div className='block font-IranYekanMedium md:text-[14px]'> 
                            <li >شناسایی نیازهای مشتریان</li>
                            <li >تحلیل رقبا</li>
                            <li >تحلیل روندهای بازار</li>
@@ -43,11 +43,11 @@ const Business = () => {
                         </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[120px] w-24 md:h-[120px] h-24' src={planing} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 px-10 bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={planing} alt='icon'/>
                         <div className='text-right'>
-                         <p className='md:text-base text-nowrap tracking-tightest'>تدوین استراتژی بازاریابی و تبلیغات</p>
-                         <div className='block text-[12px]'> 
+                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>تدوین استراتژی بازاریابی و تبلیغات</p>
+                         <div className='block font-IranYekanMedium text-[14px]'> 
                            <li >تحلیل SWOT </li>
                            <li >تقسیم‌بندی بازار</li>
                            <li >انتخاب کانال‌های تبلیغاتی</li>
@@ -56,11 +56,11 @@ const Business = () => {
                         </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[120px] w-24 md:h-[120px] h-24' src={branding} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 px-10 bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={branding} alt='icon'/>
                         <div className='text-right'>
-                         <p className='md:text-base text-nowrap tracking-tightest'>بهبود فرآیندهای فروش و خدمات مشتریان</p>
-                         <div className='block text-[12px] tracking-tighter'> 
+                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>بهبود فرآیند فروش و خدمات مشتریان</p>
+                         <div className='block font-IranYekanMedium tracking-tightest lg:tracking-normal md:text-[14px]'> 
                            <li >تحلیل چرخه فروش</li>
                            <li >آموزش نیروی فروش</li>
                            <li className='text-nowrap'> سیستم‌های مدیریت ارتباط با مشتریان (CRM) </li>

@@ -15,31 +15,31 @@ const Strategic = () => {
             </div>
 
             <div className=' mb-12'>
-                <div className='flex flex-col md:flex-row items-center justify-between gap-y-11 flex-wrap lg:child:mx-6 child:w-[300px] lg:child:w-[280px] child:text-center lg:child:text-right text-zinc-900'>
+                <div className='grid lg:grid-cols-4 grid-cols-1 gap-y-4  gap-x-4 md:mx-4 mx-6 child:text-center lg:child:text-right text-zinc-900'>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] p-10  bg-white'>
-                    <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={strategic2} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                    <img className='md:w-[240px] w-h-32 md:h-[240px] h-32' src={strategic2} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>تدوین استراتژی</p>
                     </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={sell} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={sell} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>تحلیل بازار</p>
                     </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={rival} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={rival} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>برنامه ریزی توسعه</p>
                     </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] p-10  bg-white'>
-                        <img className='md:w-[80px] w-12 md:h-[80px] h-12' src={chances} alt='icon'/>
+                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={chances} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>فرصت ها و تهدیدها</p>
                     </div>
