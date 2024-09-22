@@ -4,8 +4,6 @@ import sell from "/Newsvg/sell.svg";
 import strategic2 from "/Newsvg/strategic2.svg";
 import rival from "/Newsvg/rival.svg";
 import chances from "/Newsvg/chances.svg";
-//icon
-import { ArrowLeftIcon, ChevronLeftIcon } from '@heroicons/react/24/outline';
 
 const Strategic = () => {
     return (
@@ -15,31 +13,31 @@ const Strategic = () => {
             </div>
 
             <div className=' mb-12'>
-                <div className='grid lg:grid-cols-4 grid-cols-1 gap-y-4  gap-x-4 md:mx-4 mx-6 child:text-center lg:child:text-right text-zinc-900'>
+                <div className='grid lg:grid-cols-4 grid-cols-1 gap-y-4 gap-x-4 md:mx-4 mx-6 child:text-center text-zinc-900'>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                    <img className='md:w-[240px] w-h-32 md:h-[240px] h-32' src={strategic2} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                    <img className='md:w-[240px] w-h-32 md:h-[240px] h-32 mx-auto' src={strategic2} alt='icon'/>
                     <div>
-                        <p className='md:text-lg tracking-tightest'>تدوین استراتژی</p>
+                        <p className='md:text-lg tracking-tightest '>تدوین استراتژی</p>
                     </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={sell} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto -mt-3' src={sell} alt='icon'/>
                     <div>
-                        <p className='md:text-lg tracking-tightest'>تحلیل بازار</p>
+                        <p className='md:text-lg tracking-tightest mt-3'>تحلیل بازار</p>
                     </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={rival} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto' src={rival} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>برنامه ریزی توسعه</p>
                     </div>
                     </div>
 
-                    <div className='flex items-center flex-col gap-y-5 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                        <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={chances} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto' src={chances} alt='icon'/>
                     <div>
                         <p className='md:text-lg tracking-tightest'>فرصت ها و تهدیدها</p>
                     </div>

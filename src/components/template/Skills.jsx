@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import {Swiper,SwiperSlide} from 'swiper/react';
 import 'swiper/css';
-// import required modules
 import { Autoplay } from 'swiper/modules';
 //images
 import tooska from "/brands/toska.png" 

@@ -42,7 +42,7 @@ const Header = () => {
         
         <div className="md:ml-8 ">
             {/* <p >توحید خراسانی</p> */}
-            <a href="#call" className='text-zard hover:text-white transition-colors'>مشاوره رایگان</a>
+            <a href="#call" className='text-[18px] headerText '>مشاوره رایگان</a>
         </div>
         
         {/* </div> */}

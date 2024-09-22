@@ -1,17 +1,13 @@
 import React from 'react';
 //png
-// import target from "/target1.png";
 import target from "/logo/2.svg";
-// import sell from "/exchange.png";
 import sell from "/logo/7.svg";
-import rival from "/logo/1.svg";
 import innovation from "/logo/11.svg";
 import business from "/logo/3.svg"
 
 const Aim = () => {
     return (
         <div className='container md:my-24 my-14 aim'>
-            {/* md:child:mx-5 gap-x-24 */}
             <div className='md:flex md:mx-8 grid grid-cols-2 items-center justify-between child:mx-auto gap-x-2 gap-y-11 child:whitespace-nowrap child:flex-wrap md:flex-nowrap child:w-[80%] lg:child:w-[220px] child:text-center text-[10px] sm:text-xs md:text-lg tracking-tightest'>
 
             <div className='flex items-center flex-col bg-white border border-gray-200 p-4 gap-y-4 rounded-[20px] shadow-md'>

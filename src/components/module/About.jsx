@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {  useRef } from 'react';
 import { useInView } from 'react-intersection-observer'
 import tohid from "../../../public/tohidkhorasani/3.webp"
 
@@ -15,12 +15,9 @@ const About = () => {
         
             <div id='about' className='container text-justify md:my-20 mt-12 ' >
             <div className='flex flex-col md:flex-row md:mr-[200px]'>
-            {/* <section className='w-full'> */}
-                <img src={tohid} alt='khorasani' className='md:w-[300px] md:h-[300px] rounded-[20px] object-cover'/>
-            {/* </section>  */}
-            
 
-            {/* <section className='w-full '> */}
+                <img src={tohid} alt='khorasani' className='md:w-[300px] md:h-[300px] rounded-[20px] object-cover'/>
+          
                 <p className='md:pr-10 pt-12 md:pt-0 md:w-[50%] md:h-[50%] tracking-wide leading-8'>
                 آیا کسب و کار شما با چالش هایی مانند کاهش فروش یا نداشتن استراتژی مشخص
                 مواجه است؟
@@ -33,19 +30,7 @@ const About = () => {
                 ما میخواهیم در کنار شما این چالش ها را به فرصت های جدید و سودآور تبدیل
                 کنیم.
                 </p>
-            {/* </section> */}
             </div>
-
-            {/* <div>
-                <section className='flex w-[98%] text-lg tracking-tighter p-5 mt-10 justify-center rounded-[10px] shadow-normal'>
-                    <p>
-                    دیگر راهکارهای سنتی پاسخگوی نیاز کسب و کارها نیست
-                    امروز هر کسب و کاری نیازمند روش های خالقانه و نوآورانه برای رسیدن به اهداف خود می باشد.
-                    </p>
-                </section>
-            </div> */}
-
-            
         </div>
         
         </>

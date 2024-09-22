@@ -1,6 +1,4 @@
 import React from 'react';
-//image
-import tohid from "/tohidkhorasani/hero-2.webp"
 
 const Banner = () => {
     return (
@@ -21,16 +19,6 @@ const Banner = () => {
                         <span className='flex justify-end text-xs whitespace-nowrap'>«وینستون چرچیل»</span>
                     </p>
                 </div>
-                    {/* <div className="my-5 mx-[66px] sm:text-base text-xs">
-                        <a href="/tohidkhorasani.pdf" className="button bg-[#4993cc] rounded-md sm:p-3 p-2 text-white">دانلود فایل رزومه</a>
-                    </div> */}
-                    <div className=''>
-                        
-                    </div>
-                </div>
-                {/* ax  */}
-                <div >
-                    {/* <img src={tohid} alt='person' className=''/> */}
                 </div>
             </section>
         </div>

@@ -18,7 +18,7 @@ const Business = () => {
                     <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 md:px-10 px-14 bg-white'>
                     <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={strategic} alt='icon'/>
                     <div className='text-right'>
-                    <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>تدوین استراتژی بازاریابی و تبلیغات</p>
+                    <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold pb-2'>تدوین استراتژی بازاریابی و تبلیغات</p>
                          <div className='block font-IranYekanMedium md:text-[14px]'> 
                            <li >تعیین هویت برند</li>
                            <li >ساختاردهی تصویر برند</li>
@@ -33,7 +33,7 @@ const Business = () => {
                     <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 px-10 bg-white'>
                         <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={businessA} alt='icon'/>
                         <div className='text-right'>
-                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>تحقیقات بازار و تحلیل رقبا</p>
+                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold pb-2'>تحقیقات بازار و تحلیل رقبا</p>
                          <div className='block font-IranYekanMedium md:text-[14px]'> 
                            <li >شناسایی نیازهای مشتریان</li>
                            <li >تحلیل رقبا</li>
@@ -46,7 +46,7 @@ const Business = () => {
                     <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 px-10 bg-white'>
                         <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={planing} alt='icon'/>
                         <div className='text-right'>
-                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>تدوین استراتژی بازاریابی و تبلیغات</p>
+                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold pb-2'>تدوین استراتژی بازاریابی و تبلیغات</p>
                          <div className='block font-IranYekanMedium text-[14px]'> 
                            <li >تحلیل SWOT </li>
                            <li >تقسیم‌بندی بازار</li>
@@ -59,7 +59,7 @@ const Business = () => {
                     <div className='flex items-center flex-col gap-y-1 shadow-normal rounded-[10px] py-5 px-10 bg-white'>
                         <img className='md:w-[240px] w-32 md:h-[240px] h-32' src={branding} alt='icon'/>
                         <div className='text-right'>
-                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold'>بهبود فرآیند فروش و خدمات مشتریان</p>
+                         <p className='lg:text-lg tracking-tightest md:tracking-tight whitespace-nowrap font-IranYekanMedium md:font-IranYekanBold pb-2'>بهبود فرآیند فروش و خدمات مشتریان</p>
                          <div className='block font-IranYekanMedium tracking-tightest lg:tracking-normal md:text-[14px]'> 
                            <li >تحلیل چرخه فروش</li>
                            <li >آموزش نیروی فروش</li>

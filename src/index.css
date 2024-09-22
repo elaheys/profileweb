@@ -198,8 +198,7 @@ html,body{
 }
 
 .line:hover{
-  animation-duration: 2s;
-  animation-name: lineAnimate;
+  animation: lineAnimate 2s;
   border-bottom:border 1px solid #f9d110;
 }
 
@@ -214,12 +213,18 @@ html,body{
   }
 }
 
-/* .address{
-  @apply absolute inset-0 md:top-[490px] top-[280px] justify-center;
-} */
+  .headerText {
+    animation: color-animation 0.6s infinite alternate;
+  }
 
-/* .aim{
-  position: absolute;
-  inset: 0;
-  top: 290px;
-} */
+@keyframes color-animation {
+  0% {
+     color: #f9d110;
+  }
+  100% {
+     color: #0000;
+  } 
+}
+
+
+
