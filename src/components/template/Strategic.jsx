@@ -15,31 +15,31 @@ const Strategic = () => {
             <div className=' mb-12'>
                 <div className='grid lg:grid-cols-4 grid-cols-1 gap-y-4 gap-x-4 md:mx-4 mx-6 child:text-center text-zinc-900'>
 
-                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                    <img className='md:w-[240px] w-h-32 md:h-[240px] h-32 mx-auto' src={strategic2} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] p-10  bg-white'>
+                    <img className='md:w-[240px] w-h-32 md:h-[240px] h-32 mx-auto mt-1' src={strategic2} alt='icon'/>
                     <div>
-                        <p className='md:text-lg tracking-tightest '>تدوین استراتژی</p>
+                        <p className='md:text-lg tracking-tightest mb-2'>تدوین استراتژی</p>
                     </div>
                     </div>
 
-                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto -mt-3' src={sell} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] p-10  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto -mt-[6px] ' src={sell} alt='icon'/>
                     <div>
-                        <p className='md:text-lg tracking-tightest mt-3'>تحلیل بازار</p>
+                        <p className='md:text-lg tracking-tightest mt-1'>تحلیل بازار</p>
                     </div>
                     </div>
 
-                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto' src={rival} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] p-10 bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto mt-1' src={rival} alt='icon'/>
                     <div>
-                        <p className='md:text-lg tracking-tightest'>برنامه ریزی توسعه</p>
+                        <p className='md:text-lg tracking-tightest mb-2'>برنامه ریزی توسعه</p>
                     </div>
                     </div>
 
-                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] py-2 md:p-5  bg-white'>
-                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto' src={chances} alt='icon'/>
+                    <div className='grid grid-cols-1 shadow-normal rounded-[10px] p-10  bg-white'>
+                        <img className='md:w-[240px] w-32 md:h-[240px] h-32 mx-auto mt-2' src={chances} alt='icon'/>
                     <div>
-                        <p className='md:text-lg tracking-tightest'>فرصت ها و تهدیدها</p>
+                        <p className='md:text-lg tracking-tightest mb-2'>فرصت ها و تهدیدها</p>
                     </div>
                     </div>
                 </div>
